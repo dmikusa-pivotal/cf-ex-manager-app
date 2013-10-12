@@ -1,0 +1,9 @@
+---
+applications:
+- name: manager-app
+  memory: 512M
+  instances: 1
+  host: manager-app
+  domain: 192.168.0.100.xip.io
+  path: .
+  buildpack: http://192.168.0.6:5000/cf-tomcat-8-build-pack/.git
