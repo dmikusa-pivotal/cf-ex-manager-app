@@ -3,7 +3,7 @@ applications:
 - name: manager-app
   memory: 512M
   instances: 1
-  host: manager-app
-  domain: 192.168.0.100.xip.io
+  host: manager-app-${random-word}
+  domain: cfapps.io
   path: .
-  buildpack: http://192.168.0.6:5000/cf-tomcat-8-build-pack/.git
+  buildpack: https://github.com/dmikusa-pivotal/cf-tomcat-8-build-pack.git
