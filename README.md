@@ -8,5 +8,6 @@ Notes about this App
 
  1. This is the stock manager application from Tomat 8 RC3, copied into the ```ROOT``` directory.
  1. We add a tomcat-users.xml file in the ```config``` directory to allow us to login.
+ 1. We add a custom catalina.policy file, so that the manager app has permissions running under ```ROOT```.
  1. There is a sample manifest file for deploying to run.pivotal.io.
  
